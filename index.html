@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="frame">
+        <h1>Bank:</h1>
+        <div id="registrationForm">
+            <form id="myform1">
+                <h2>Registration Form</h2>
+                <label >userName: </label><input type="text" id="uN"><br>
+                <label>opening balance: </label><input type="text" id="balance"><br>
+                <button id="submit" >Register</button>
+            </form>
+        </div>
+        <div id="depositForm">
+            <form id="myform2">
+                <h2>Deposit Form</h2>
+                <label >Account No: </label><input type="text" id="D_acc"><br>
+                <label>Deposit amount: </label><input type="text" id="D_amm"><br>
+                <button id="deposit">Deposit</button>
+            </form>
+        </div>
+        <div id="withdrawalForm">
+            <form id="myform3">
+                <h2>Withdrawal Form</h2>
+                <label >Account No: </label><input type="text" id="W_acc"><br>
+                <label>Withdrawal amount: </label><input type="text" id="W_amm"><br>
+                <button id="withdraw">Withdraw</button>
+            </form>
+        </div>
+        <div id="displayAccount">
+            <form id="myform4">
+                <h2>Display Form</h2>
+                <label >Account No: </label><input type="text" id="view_acc"><br> 
+                <span id="username"></span>
+                <span id="userbalance"></span>
+                <button id="checkBalance">Check Account</button>
+            </form>
+        </div>
+    </div> 
+    <script src="3_class.js"></script>
+</body>
+</html>
